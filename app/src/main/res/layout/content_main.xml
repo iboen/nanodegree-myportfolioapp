@@ -44,29 +44,30 @@
                 android:text="@string/main_scores_app" />
 
             <Button
-                android:onClick="onClickLibrary"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="onClickLibrary"
                 android:text="@string/main_library_app" />
 
             <Button
-                android:onClick="onClickBuildBigger"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="onClickBuildBigger"
                 android:text="@string/main_build_it_bigger" />
 
             <Button
-                android:onClick="onClickXYZ"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="onClickXYZ"
                 android:text="@string/main_xyz_reader" />
 
             <Button
-                android:onClick="onClickCapstone"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="onClickCapstone"
                 android:text="@string/main_capstone"
-                android:theme="@style/AppTheme.ButtonRed" />
+                android:textColor="@color/red" />
 
         </LinearLayout>
     </LinearLayout>
